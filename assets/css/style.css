@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+/* ------------------ HEADER ---------------------------------*/
+
 header
 {
     display: flex;
@@ -19,11 +21,12 @@ header
     margin-top: 5px;
     margin-left: 100px;
     margin-bottom: 15px;
+    border: 1px solid black;
 }
 
 #header-logo img
 {
-    width:65px
+    width:60px
 }
 
 nav ul
@@ -55,11 +58,13 @@ nav a
 {
     header
     {
+        align-items: center;
         flex-wrap: wrap;
     }
     nav ul
     {
         flex-direction: column;  
+        align-items: center;
         gap: 1rem;      
     }
     nav li
@@ -67,4 +72,48 @@ nav a
         border-right:none;
     }
 }
+
+/* ------------------ BANNER ---------------------------------*/
+
+#banner
+{
+    background-image: url(../images/backgroundBanner.jpg);
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    margin-top: 9vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 4.5vw; 
+    text-align: center;
+}
+
+#contact-link
+{
+    background-color:#ff4676;
+    border-radius: 5px;;
+    width: 25vw;
+    height: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-link a
+{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color:white;
+}
+
 
