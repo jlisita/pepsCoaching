@@ -7,6 +7,17 @@
     box-sizing: border-box;
 }
 
+h2
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.sous-titre
+{
+    color:grey;
+}
+
 /* ------------------ HEADER ---------------------------------*/
 
 header
@@ -115,5 +126,60 @@ h1
     font-weight: bold;
     color:white;
 }
+
+/* ------------------ SECTION INTRO ---------------------------------*/
+
+#intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#intro-contenu
+{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#intro-image
+{
+    margin: 30px;
+}
+
+#intro-image img
+{
+    width: 500px;
+}
+
+#intro-text
+{
+    width: 500px;
+    margin: 35px;
+}
+
+#intro-text ul
+{
+    margin-bottom: 30px;
+}
+
+#intro-text li
+{
+    list-style-type: "-";
+}
+
+#intro-text p
+{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+
+
 
 
