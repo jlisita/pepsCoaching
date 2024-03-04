@@ -16,11 +16,13 @@ h2
 h3
 {
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .sous-titre
 {
     color:grey;
+    margin-bottom: 20px;
 }
 
 /* ------------------ HEADER ---------------------------------*/
@@ -243,6 +245,92 @@ h1
 {
     height:70px;
 }
+
+.method-card h3
+{
+    text-align: center;
+}
+
+.method-card p
+{
+    text-align: center;
+}
+
+/* ------------------ SECTION SUPPORT ---------------------------------*/
+
+
+#support
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#support-content
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#support p
+{
+    text-align: center;
+}
+
+.support-card
+{
+    width:300px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.support-card h3
+{
+    text-align: center;
+}
+
+.support-card ul
+{
+    line-height: 30px;
+}
+
+.support-card li
+{
+    text-align: center;
+}
+
+
+
+.support-link
+{
+    background-color:white;
+    border: 1px solid #ff4676;
+    border-radius: 5px;;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-link a
+{
+    font-size: 1vw;
+    font-weight: bold;
+    color:#ff4676;
+    text-transform: uppercase;
+}
+
+
 
 
 
