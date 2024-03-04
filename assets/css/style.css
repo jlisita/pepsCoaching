@@ -379,6 +379,78 @@ h1
     border: 8px solid white;
 }
 
+/* ------------------ SECTION TESTIMONY ---------------------------------*/
+
+#blog
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-post
+{
+    width:100vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.illustration
+{
+    margin: 30px;
+}
+
+.blog-post img
+{
+    width:280px;
+}
+
+.post-description
+{
+    width: 600px;
+}
+
+.post-description p
+{
+    margin-top: 20px;
+}
+
+#read-link1,#read-link2
+{
+    background-color:white;
+    border: 1px solid #ff4676;
+    border-radius: 5px;;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#read-link1 a,#read-link2 a
+{
+    font-size: 1vw;
+    font-weight: bold;
+    color:#ff4676;
+    text-transform: uppercase;
+}
+
+#ligne-separation
+{
+    width:70vw;
+    height: 1px;
+    background-color: #3cd8c5;
+}
+
+
+
+
 
 
 
