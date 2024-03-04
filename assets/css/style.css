@@ -379,7 +379,7 @@ h1
     border: 8px solid white;
 }
 
-/* ------------------ SECTION TESTIMONY ---------------------------------*/
+/* ------------------ SECTION BLOG ---------------------------------*/
 
 #blog
 {
@@ -446,6 +446,72 @@ h1
     width:70vw;
     height: 1px;
     background-color: #3cd8c5;
+}
+
+/* ------------------ FOOTER ---------------------------------*/
+
+footer
+{
+    margin-top: 50px;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-content
+{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo
+{
+    position: relative;
+    margin:30px;
+    width:400px;
+    height: 150px;
+}
+
+#footer-logo img
+{
+    position: absolute;
+    right:0px;
+    top:0px;
+    width:120px;
+}
+
+#infos-contact
+{
+    margin:30px;
+    width: 400px;
+}
+
+#infos-contact p
+{
+    margin-top:20px;
+}
+
+#form-link
+{
+    color: black;
+}
+
+
+
+#ligne-verticale
+{
+    width:1px;
+    height: 150px;
+    background-color: black;
+}
+
+#copyright
+{
+    margin-bottom: 20px;
 }
 
 
