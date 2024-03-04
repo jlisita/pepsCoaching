@@ -16,7 +16,7 @@ h2
 h3
 {
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .sous-titre
@@ -328,6 +328,55 @@ h1
     font-weight: bold;
     color:#ff4676;
     text-transform: uppercase;
+}
+
+/* ------------------ SECTION TESTIMONY ---------------------------------*/
+
+#testimony
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#testimony-content
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimony-card
+{
+    width:300px;
+    margin:15px;
+    padding:10px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    border: 1px solid #3cd8c5;
+    position:relative;
+}
+
+.testimony-card p
+{
+    text-align: center;
+}
+
+.portrait
+{
+    position: absolute;
+    top: -50px;
+}
+
+.portrait img
+{
+    border: 8px solid white;
 }
 
 
