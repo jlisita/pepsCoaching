@@ -186,6 +186,15 @@ h1
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 500px) 
+{
+    #intro-image img
+    {
+        width: 200px;
+    }
+
+}
+
 /* ------------------ SECTION METHOD ---------------------------------*/
 
 
@@ -206,7 +215,7 @@ h1
 
 #method-link a
 {
-    font-size: 1.5vw;
+    font-size: 20px;
     font-weight: bold;
     color:#ff4676;
     text-transform: uppercase;
@@ -324,7 +333,7 @@ h1
 
 .support-link a
 {
-    font-size: 1vw;
+    font-size: 20px;
     font-weight: bold;
     color:#ff4676;
     text-transform: uppercase;
@@ -353,6 +362,7 @@ h1
 {
     width:300px;
     margin:15px;
+    margin-top: 50px;
     padding:10px;
     padding-top: 35px;
     display: flex;
@@ -435,7 +445,7 @@ h1
 
 #read-link1 a,#read-link2 a
 {
-    font-size: 1vw;
+    font-size: 20px;
     font-weight: bold;
     color:#ff4676;
     text-transform: uppercase;
@@ -514,7 +524,18 @@ footer
     margin-bottom: 20px;
 }
 
-
+@media screen and (max-width: 500px) 
+{
+    #footer-content
+    {
+        flex-direction: column;
+    }
+    #ligne-verticale
+    {
+        width: 0px;
+        height: 0px;
+    }
+}
 
 
 
